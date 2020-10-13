@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "a4b9539f-801a-41d6-bbb5-874a62d9e718",
+		"name": "Recu Parcial",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Punto 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "email",
+							"value": "user@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/Programacion3/PrimerParcial/index.php/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"Programacion3",
+						"PrimerParcial",
+						"index.php",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 5",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 6",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Punto 7",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
